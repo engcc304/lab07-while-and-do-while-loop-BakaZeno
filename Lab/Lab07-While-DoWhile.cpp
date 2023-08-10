@@ -63,6 +63,7 @@ int main() {
         int randomnumber = rand() % 100 + 1;
         printf("\nDo you want to play game (1=play,-1=exit) :\n");
         scanf("%d",&playgame);
+        printf("(Score=%d)\n",point);
         if(playgame==1){
         printf("Guess the winning number (1-100) :\n");
         scanf("%d",&answer);
